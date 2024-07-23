@@ -1,0 +1,15 @@
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\bin\Debug\net8.0\AssignmentGroup_Repository.deps.json
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\bin\Debug\net8.0\AssignmentGroup_Repository.runtimeconfig.json
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\bin\Debug\net8.0\AssignmentGroup_Repository.dll
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\bin\Debug\net8.0\AssignmentGroup_Repository.pdb
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.csproj.AssemblyReference.cache
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.AssemblyInfoInputs.cache
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.AssemblyInfo.cs
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.csproj.CoreCompileInputs.cache
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.dll
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\refint\AssignmentGroup_Repository.dll
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.pdb
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\AssignmentGroup_Repository.genruntimeconfig.cache
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\obj\Debug\net8.0\ref\AssignmentGroup_Repository.dll
+D:\Slide\Sem_5\Net1806_AssignmentGroup\AssignmentGroup_Repository\bin\Debug\net8.0\appsettings.json
