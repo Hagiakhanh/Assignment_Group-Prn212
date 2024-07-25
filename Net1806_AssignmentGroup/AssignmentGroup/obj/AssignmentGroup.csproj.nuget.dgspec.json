@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj": {}
+    "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj": {
+    "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
+        "projectUniqueName": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
         "projectName": "AssignmentGroup",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\obj\\",
+        "projectPath": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
+        "packagesPath": "C:\\Users\\HA GIA KHANH\\.nuget\\packages\\",
+        "outputPath": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HA GIA KHANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj"
+              "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
+                "projectPath": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj"
               }
             }
           }
@@ -71,17 +71,17 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
+    "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
+        "projectUniqueName": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
         "projectName": "AssignmentGroup_Repository",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\obj\\",
+        "projectPath": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
+        "packagesPath": "C:\\Users\\HA GIA KHANH\\.nuget\\packages\\",
+        "outputPath": "D:\\Slide\\Sem_5\\PRN212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HA GIA KHANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -43,15 +43,21 @@ namespace AssignmentGroup
 
                 var records = csv.GetRecords<CarCsvModel>().ToList();
 
+                _unitOfWork.CarRepository.RemoveRange();
+                _unitOfWork.FuelTypeRepository.RemoveRange();
+                _unitOfWork.OwnerRepository.RemoveRange();
+                _unitOfWork.SellerTypeRepository.RemoveRange();
+                _unitOfWork.TransmissionRepository.RemoveRange();
+
                 var fuelTypes = records.Select(r => r.Fuel_Type).Distinct().Select(ft => new FuelType { FuelTypeName = ft }).ToList();
                 var sellerTypes = records.Select(r => r.Seller_Type).Distinct().Select(st => new SellerType { SellerTypeName = st }).ToList();
                 var transmissions = records.Select(r => r.Transmission).Distinct().Select(t => new Transmission { TransmissionType = t }).ToList();
                 var owners = records.Select(r => r.Owner).Distinct().Select(o => new Owner { OwnerType = o }).ToList();
-                _context.FuelTypes.AddRange(fuelTypes);
-                _context.SellerTypes.AddRange(sellerTypes);
-                _context.Transmissions.AddRange(transmissions);
-                _context.Owners.AddRange(owners);
-                _context.SaveChanges();
+               
+                _unitOfWork.FuelTypeRepository.AddRange(fuelTypes);
+                _unitOfWork.SellerTypeRepository.AddRange(sellerTypes);
+                _unitOfWork.TransmissionRepository.AddRange(transmissions);
+                _unitOfWork.OwnerRepository.AddRange(owners);
 
                 var cars = records.Select(r => new Car
                 {
@@ -65,11 +71,7 @@ namespace AssignmentGroup
                     OwnerId = owners.First(o => o.OwnerType == r.Owner).OwnerId
                 }).ToList();
 
-                _context.Cars.AddRange(cars);
-                _context.SaveChanges();
-
-                dataGridCars.ItemsSource = cars;
-                dataGridCars.AutoGenerateColumns = true;
+                _unitOfWork.CarRepository.AddRange(cars);
             }
             System.Windows.MessageBox.Show("Import successfully");
         }

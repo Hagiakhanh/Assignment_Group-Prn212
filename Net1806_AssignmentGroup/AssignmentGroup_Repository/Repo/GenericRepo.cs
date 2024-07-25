@@ -39,5 +39,17 @@ namespace AssignmentGroup_Repository.Repo
             }
             return query.ToList();
         }
+
+        public virtual void AddRange(IEnumerable<TEntity> entity)
+        {
+            dbSet.AddRange(entity);
+            context.SaveChanges();
+        }
+
+        public virtual void RemoveRange()
+        {
+            dbSet.RemoveRange(dbSet);
+            context.SaveChanges();
+        }
     }
 }
