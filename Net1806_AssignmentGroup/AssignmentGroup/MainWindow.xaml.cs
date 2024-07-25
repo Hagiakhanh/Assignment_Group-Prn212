@@ -129,5 +129,28 @@ namespace AssignmentGroup
 
 
 }
+
+        private void btnCreate_Click(object sender, RoutedEventArgs e)
+        {
+            CreateWindown createWindown = new CreateWindown();
+            createWindown.ShowDialog();
+            LoadData();
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            var itemSelected = dataGridCars.SelectedItem as CarView;
+            if (itemSelected != null)
+            {
+                int itemSelectedId = itemSelected.CarId;
+                UpdateWindow updateWindow = new UpdateWindow(itemSelectedId);
+                updateWindow.ShowDialog();
+                LoadData();
+                
+            } else
+            {
+                System.Windows.MessageBox.Show("Please choose item to update");
+            }
+        }
     }
 }

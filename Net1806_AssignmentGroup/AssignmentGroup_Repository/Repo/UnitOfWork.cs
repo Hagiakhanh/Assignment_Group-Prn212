@@ -35,6 +35,10 @@ namespace AssignmentGroup_Repository.Repo
             }
 
         }
+        public void Save()
+        {
+            context.SaveChanges();
+        }
 
         public GenericRepo<FuelType> FuelTypeRepository
         {

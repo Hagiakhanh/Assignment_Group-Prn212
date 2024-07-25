@@ -20,7 +20,7 @@ namespace AssignmentGroup_Repository.Repo
         }
 
         public IEnumerable<TEntity> GetAll(
-            Expression<Func<TEntity, bool>> filter,
+            Expression<Func<TEntity, bool>> filter = null,
             params Expression<Func<TEntity, object>>[] includes)
         {
             IQueryable<TEntity> query = dbSet;

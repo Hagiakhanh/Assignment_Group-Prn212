@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow"
         Height="450"
-        Width="800">
+        Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="btnImport"
                 Content="Import"
@@ -31,7 +31,9 @@
                   Margin="0,71,0,0"
                   VerticalAlignment="Top"
                   Width="780" />
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="656,371,0,0" VerticalAlignment="Top" Width="85" Click="btnCreate_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="546,371,0,0" VerticalAlignment="Top" Width="85" Click="btnUpdate_Click"/>
 
     </Grid>
-    
+
 </Window>
