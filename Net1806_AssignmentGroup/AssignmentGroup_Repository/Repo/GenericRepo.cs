@@ -66,6 +66,17 @@ namespace AssignmentGroup_Repository.Repo
             dbSet.Attach(entityToUpdate);
             context.Entry(entityToUpdate).State = EntityState.Modified;
         }
+        public virtual void AddRange(IEnumerable<TEntity> entity)
+        {
+            dbSet.AddRange(entity);
+            context.SaveChanges();
+        }
+
+        public virtual void RemoveRange()
+        {
+            dbSet.RemoveRange(dbSet);
+            context.SaveChanges();
+        }
 
     }
 }
