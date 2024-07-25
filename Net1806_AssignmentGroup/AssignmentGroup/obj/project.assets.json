@@ -3307,19 +3307,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hn190\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
       "projectName": "AssignmentGroup",
-      "projectPath": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
-      "packagesPath": "C:\\Users\\hn190\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hn190\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3333,8 +3333,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
-              "projectPath": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj"
+            "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj"
             }
           }
         }

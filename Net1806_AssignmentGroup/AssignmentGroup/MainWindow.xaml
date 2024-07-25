@@ -9,30 +9,73 @@
         Height="450"
         Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="btnImport"
-                Content="Import"
-                HorizontalAlignment="Left"
-                Margin="656,33,0,0"
-                VerticalAlignment="Top"
-                Width="85"
-                Click="btnImport_Click" />
         <Button x:Name="btnExport"
             Content="Export"
             HorizontalAlignment="Left"
-            Margin="546,33,0,0"
+            Margin="658,59,0,0"
             VerticalAlignment="Top"
-            Width="85"
+            Width="67"
             Click="btnExport_Click" />
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="639,383,0,0" VerticalAlignment="Top" Width="85" Click="btnCreate_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="534,383,0,0" VerticalAlignment="Top" Width="85" Click="btnUpdate_Click"/>
+        <Button x:Name="btnImport1"
+            Content="Import"
+            HorizontalAlignment="Left"
+            Margin="731,59,0,0"
+            VerticalAlignment="Top"
+            Width="64"
+            Click="btnImport_Click"  />
         <DataGrid x:Name="dataGridCars"
-                  d:ItemsSource="{d:SampleData ItemCount=0}"
-                  AutoGenerateColumns="False"
-                  HorizontalAlignment="Center"
-                  Height="269"
-                  Margin="0,71,0,0"
-                  VerticalAlignment="Top"
-                  Width="780" />
-        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="656,371,0,0" VerticalAlignment="Top" Width="85" Click="btnCreate_Click"/>
-        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="546,371,0,0" VerticalAlignment="Top" Width="85" Click="btnUpdate_Click"/>
+            d:ItemsSource="{d:SampleData ItemCount=0}"
+            AutoGenerateColumns="False"
+            HorizontalAlignment="Left"
+            Height="269"
+            Margin="2,87,0,0"
+            VerticalAlignment="Top"
+            Width="785" CanUserAddRows="False" />
+        <ComboBox x:Name="ccbCheckBoxFuelName" Height="26" VerticalAlignment="Top"  IsEditable="True" IsReadOnly="True" SelectionChanged="ComboBox_SelectionChanged" Margin="292,56,414,0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Content="{Binding}" Margin="0,0,5,0"  Checked="CheckBox_CheckedFuel" Unchecked="CheckBox_UncheckedFuel"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="ccbCheckBoxOwner" Height="26" VerticalAlignment="Top" IsEditable="True" IsReadOnly="True" SelectionChanged="ComboBox_SelectionChanged" Margin="378,56,366,0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Content="{Binding}" Margin="0,0,5,0"  Checked="CheckBox_CheckedOwner" Unchecked="CheckBox_UncheckedOwner" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="ccbCheckBoxSellerType" Height="26" VerticalAlignment="Top" IsEditable="True" IsReadOnly="True" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.518,0.515" Margin="426,56,270,0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Content="{Binding}" Margin="0,0,5,0"  Checked="CheckBox_CheckedSeller" Unchecked="CheckBox_UncheckedSeller" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="ccbCheckBoxTransmission" Height="26" VerticalAlignment="Top"  IsEditable="True" IsReadOnly="True" SelectionChanged="ComboBox_SelectionChanged" Margin="524,56,157,0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Content="{Binding}"  Margin="0,0,5,0"  Checked="CheckBox_CheckedTransmission" Unchecked="CheckBox_UncheckedTransmission"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Content="Apply" HorizontalAlignment="Left" Margin="605,8,0,0" VerticalAlignment="Top" Width="85" Height="19" Click="ApplyButton_Click" RenderTransformOrigin="0.395,0.739"/>
+        <ComboBox x:Name="ccbCheckBoYear" Height="26" VerticalAlignment="Top" IsEditable="True" IsReadOnly="True" SelectionChanged="ComboBox_SelectionChanged" Margin="45,57,711,0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox Content="{Binding}" Margin="0,0,5,0"  Checked="CheckBox_CheckedYear" Unchecked="CheckBox_UncheckedYear" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="ccbTypeRange" HorizontalAlignment="Left" Margin="167,3,0,0" VerticalAlignment="Top" Width="106" Height="25"/>
+        <TextBox x:Name="txt_minRange" HorizontalAlignment="Left" Margin="327,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="txt_maxRange" HorizontalAlignment="Left" Margin="488,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Min:" HorizontalAlignment="Left" Margin="290,3,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.305,0.406"/>
+        <Label Content="Max:" HorizontalAlignment="Left" Margin="447,1,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.305,0.406"/>
+        <ComboBox x:Name="ccbSort" HorizontalAlignment="Left" Margin="11,5,0,0" VerticalAlignment="Top" Width="118" Height="25"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="711,9,0,0" VerticalAlignment="Top" Width="85" Height="19" Click="ClearButton_Click"/>
 
     </Grid>
 

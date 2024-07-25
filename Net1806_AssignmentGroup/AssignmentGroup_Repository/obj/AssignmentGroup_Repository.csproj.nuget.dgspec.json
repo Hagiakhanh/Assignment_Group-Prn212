@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
         "projectName": "AssignmentGroup_Repository",
-        "projectPath": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
-        "packagesPath": "C:\\Users\\hn190\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hn190\\OneDrive\\Desktop\\Ky5\\PRN212\\Baitapnhom\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hn190\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
