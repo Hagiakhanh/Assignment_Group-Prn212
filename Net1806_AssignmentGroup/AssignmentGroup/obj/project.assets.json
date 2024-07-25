@@ -3307,19 +3307,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HA GIA KHANH\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
       "projectName": "AssignmentGroup",
-      "projectPath": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
-      "packagesPath": "C:\\Users\\HA GIA KHANH\\.nuget\\packages\\",
-      "outputPath": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\AssignmentGroup.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HA GIA KHANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3333,8 +3333,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
-              "projectPath": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj"
+            "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj"
             }
           }
         }

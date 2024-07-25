@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|d:\\slide\\sem_5\\net1806_assignmentgroup\\assignmentgroup\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|solutionrelative:assignmentgroup\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|d:\\slide\\sem_5\\net1806_assignmentgroup\\assignmentgroup\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|solutionrelative:assignmentgroup\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\modelsview\\carview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\modelsview\\carview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|d:\\slide\\sem_5\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\repo\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\repo\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\repo\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\repo\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|d:\\slide\\sem_5\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\carcsvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\cardbsetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\models\\cardbsetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\carcsvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\models\\carcsvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|d:\\slide\\sem_5\\net1806_assignmentgroup\\assignmentgroup_repository\\models\\cardbsetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\models\\cardbsetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38E741F3-7369-49F7-BDA9-DCA4465BE192}|AssignmentGroup\\AssignmentGroup.csproj|solutionrelative:assignmentgroup\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|c:\\users\\admin\\source\\repos\\assignment_group-prn212\\net1806_assignmentgroup\\assignmentgroup_repository\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA89026C-C3E4-4F9A-9275-7F2F72B4D582}|AssignmentGroup_Repository\\AssignmentGroup_Repository.csproj|solutionrelative:assignmentgroup_repository\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +50,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Owner.cs",
-              "DocumentMoniker": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\Owner.cs",
-              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\Owner.cs",
-              "ToolTip": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\Owner.cs",
-              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\Owner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "CarView.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\ModelsView\\CarView.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\ModelsView\\CarView.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\ModelsView\\CarView.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\ModelsView\\CarView.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T04:14:17.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarCsvModel.cs",
-              "DocumentMoniker": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
-              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
-              "ToolTip": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
-              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:40:38.862Z",
+              "WhenOpened": "2024-07-25T08:11:47.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CarDbSetContext.cs",
-              "DocumentMoniker": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
-              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
-              "ToolTip": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
-              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Repo\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Repo\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Repo\\UnitOfWork.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\Repo\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:35:55.073Z",
+              "WhenOpened": "2024-07-25T07:53:32.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AssignmentGroup\\MainWindow.xaml",
-              "ToolTip": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml",
-              "RelativeToolTip": "AssignmentGroup\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-23T02:55:07.813Z",
+              "DocumentIndex": 3,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Repo\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Repo\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Repo\\GenericRepo.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\Repo\\GenericRepo.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:36:58.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\Owner.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\Owner.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\Owner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:30:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\Car.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\Car.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA7wB8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:29:58.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AssignmentGroup\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Slide\\Sem_5\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml.cs",
               "RelativeToolTip": "AssignmentGroup\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAADwvy0AAACTAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T02:50:18.726Z",
+              "WhenOpened": "2024-07-25T07:19:08.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AssignmentGroup\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup\\MainWindow.xaml",
+              "RelativeToolTip": "AssignmentGroup\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-25T07:19:05.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarCsvModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\CarCsvModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:18:53.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\appsettings.json",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\appsettings.json",
+              "RelativeToolTip": "AssignmentGroup_Repository\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T07:16:26.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarDbSetContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
+              "RelativeDocumentMoniker": "AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Assignment_Group-Prn212\\Net1806_AssignmentGroup\\AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
+              "RelativeToolTip": "AssignmentGroup_Repository\\Models\\CarDbSetContext.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:16:21.988Z",
               "EditorCaption": ""
             }
           ]

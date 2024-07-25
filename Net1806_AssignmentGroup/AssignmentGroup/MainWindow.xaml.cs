@@ -1,12 +1,11 @@
 ﻿using AssignmentGroup_Repository.Models;
+using AssignmentGroup_Repository.ModelsView;
+using AssignmentGroup_Repository.Repo;
 using CsvHelper;
 using System.Globalization;
 using System.IO;
-using System.Text;
+using System.Linq.Expressions;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -22,10 +21,13 @@ namespace AssignmentGroup
     public partial class MainWindow : Window
     {
         CarDbSetContext _context;
+        UnitOfWork _unitOfWork;
         public MainWindow()
         {
             InitializeComponent();
             _context = new CarDbSetContext();
+            _unitOfWork = new UnitOfWork(_context);
+            LoadData();
         }
 
         private void btnImport_Click(object sender, RoutedEventArgs e)
@@ -51,7 +53,7 @@ namespace AssignmentGroup
                 _context.Owners.AddRange(owners);
                 _context.SaveChanges();
 
-                /*var cars = records.Select(r => new Car
+                var cars = records.Select(r => new Car
                 {
                     Year = r.Year,
                     SellingPrice = (decimal)r.Selling_Price,
@@ -66,8 +68,30 @@ namespace AssignmentGroup
                 _context.Cars.AddRange(cars);
                 _context.SaveChanges();
 
-                dataGridCars.ItemsSource = cars;*/
+                dataGridCars.ItemsSource = cars;
+                dataGridCars.AutoGenerateColumns = true;
             }
+            System.Windows.MessageBox.Show("Import successfully");
+        }
+
+        private void LoadData()
+        {
+            Expression<Func<Car, bool>> fillter = x=> true;
+            var ListCar = _unitOfWork.CarRepository.GetAll(fillter,c => c.FuelType, c => c.Owner, c => c.SellerType, c => c.Transmission).ToList();
+            var listCarView = ListCar.Select(x => new CarView()
+            {
+                CarId = x.CarId,
+                KmsDriven = x.KmsDriven,
+                PresentPrice = x.PresentPrice,
+                Year = x.Year,
+                FuelTypeName = x.FuelType.FuelTypeName,
+                Owner = x.Owner.OwnerType,
+                SellerTypeName = x.SellerType.SellerTypeName,
+                SellingPrice = x.SellingPrice,
+                TransmissionName = x.Transmission.TransmissionType
+            }).ToList();
+            dataGridCars.ItemsSource = listCarView;
+            dataGridCars.AutoGenerateColumns= true;
         }
     }
 }
