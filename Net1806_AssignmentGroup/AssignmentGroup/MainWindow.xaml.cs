@@ -95,5 +95,39 @@ namespace AssignmentGroup
             dataGridCars.ItemsSource = listCarView;
             dataGridCars.AutoGenerateColumns= true;
         }
+        private void btnExport_Click(object sender, RoutedEventArgs e)
+{
+    Expression<Func<Car, bool>> filter = x => true;
+    SaveFileDialog saveFileDialog = new SaveFileDialog();
+    saveFileDialog.Filter = "Excel Files|*.csv";
+    saveFileDialog.Title = "Save an Excel File";
+    saveFileDialog.FileName = "Cars.csv";
+    if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+    {
+        string filePath = saveFileDialog.FileName;
+        try
+        {
+
+            using (var writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("Car_Name,Year,Selling_Price,Present_Price,Kms_Driven,Fuel_Type,Seller_Type,Transmission");
+                List<Car> cars = _unitOfWork.CarRepository.GetAll(filter, c => c.FuelType, c => c.Owner, c => c.SellerType, c => c.Transmission).ToList();
+                foreach (var car in cars)
+                {
+                    writer.WriteLine($"{car.CarId},{car.Year},{car.SellingPrice},{car.PresentPrice},{car.KmsDriven},{car.FuelType.FuelTypeName},{car.SellerType.SellerTypeName},{car.Transmission.TransmissionType}");
+                }
+            }
+        }
+        
+        catch (Exception ex)
+        {
+            System.Windows.MessageBox.Show(ex.Message);
+        }
+
+        System.Windows.MessageBox.Show("Data exported successfully to " + filePath);
+    }
+
+
+}
     }
 }
