@@ -387,5 +387,30 @@ namespace AssignmentGroup
                 System.Windows.MessageBox.Show("Please choose item to update");
             }
         }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var itemSelected = dataGridCars.SelectedItem as CarView;
+            if (itemSelected != null)
+            {
+                int itemSelectedId = itemSelected.CarId;
+                Car objectCar = _unitOfWork.CarRepository.GetByID(itemSelectedId);
+                if (objectCar != null)
+                {
+                    MessageBoxResult result = System.Windows.MessageBox.Show("Do you want to delete", "Question", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        _unitOfWork.CarRepository.Delete(objectCar);
+                        _unitOfWork.Save();
+                    }
+                }
+                LoadData();
+            }
+            else
+            {
+                System.Windows.MessageBox.Show("Please choose item to delete");
+            }
+        }
+
     }
 }

@@ -50,6 +50,14 @@ namespace AssignmentGroup_Repository.Repo
             TEntity entityToDelete = dbSet.Find(id);
             Delete(entityToDelete);
         }
+        public virtual void Delete(TEntity entityToDelete)
+        {
+            if (context.Entry(entityToDelete).State == EntityState.Detached)
+            {
+                dbSet.Attach(entityToDelete);
+            }
+            dbSet.Remove(entityToDelete);
+        }
         public virtual TEntity GetByID(int id, params Expression<Func<TEntity, object>>[] includes)
         {
             IQueryable<TEntity> query = dbSet;

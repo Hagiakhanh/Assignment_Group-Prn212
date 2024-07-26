@@ -76,6 +76,7 @@
         <Label Content="Max:" HorizontalAlignment="Left" Margin="447,1,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.305,0.406"/>
         <ComboBox x:Name="ccbSort" HorizontalAlignment="Left" Margin="11,5,0,0" VerticalAlignment="Top" Width="118" Height="25"/>
         <Button Content="Clear" HorizontalAlignment="Left" Margin="711,9,0,0" VerticalAlignment="Top" Width="85" Height="19" Click="ClearButton_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="422,383,0,0" VerticalAlignment="Top" Width="85" Click="btnDelete_Click"/>
 
     </Grid>
 
